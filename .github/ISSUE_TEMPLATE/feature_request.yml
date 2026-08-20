@@ -1,0 +1,33 @@
+name: Idea or feature request
+description: Suggest an improvement that fits Trainer Career's observer-only scope.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Trainer Career observes playthrough history and must not alter gameplay.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why would it be useful?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Journey
+        - Pokémon
+        - Stats
+        - Trophy Room
+        - Compatibility
+        - Other
+    validations:
+      required: true

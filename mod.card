@@ -1,0 +1,25 @@
+return {
+  summary = "An observer-only career record for complete Red, Blue, and Yellow playthroughs.",
+  author = "l0rd92",
+  tags = { "ui", "tool", "history", "quality-of-life" },
+  differences = {
+    changed = {
+      "the START menu will gain a TRAINER CAREER entry",
+    },
+    added = {
+      "Journey diary",
+      "individual Pokemon career histories",
+      "career totals and records",
+      "badge and Hall of Fame trophy records",
+    },
+    known = {
+      "v0.1.0 is a non-functional project scaffold; tracking is not implemented yet",
+      "Gen 2 is intentionally not claimed until it is implemented and tested",
+    },
+  },
+  credits = {
+    { who = "bryanthaboi/gen1recomp", for_ = "the engine and public mod API" },
+    { who = "pret/pokered", for_ = "the original menu behavior used as visual reference" },
+  },
+  compat = { engine = ">=0.0.0-0 <2.0.0", modApi = 2 },
+}

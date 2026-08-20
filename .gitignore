@@ -1,0 +1,34 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.vscode/
+.idea/
+
+# Generated/test output
+coverage/
+dist/
+build/
+*.log
+
+# Never commit player-owned or private game material
+*.gb
+*.gbc
+*.sav
+*.srm
+*.state
+*.ss[0-9]
+*.rar
+*.7z
+*.zip
+baseroms/
+roms/
+saves/
+fixtures/private/
+trainer-career-private/
+
+# Local links and configuration
+.env
+.env.*
+local/
